@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: #43545c;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% высоты видимой части окна браузера */
+    margin-left: 6%;
+    margin-top: -2%;
+}
+
+.graph-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.graph-blue {
+    width: 230px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.graph-orange {
+    width: 230px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.filter-forecast {
+    display: flex;
+    right: 0;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.center-form {
+    background-color:  #292929;
+    width: 700px; /* Установите ширину формы по вашему усмотрению */
+    height: 600px; /* Установите высоту формы по вашему усмотрению */
+    padding: 20px; /* Добавьте отступы вокруг содержимого формы */
+    border: 7px solid #FFD700; /* Устанавливаем рамку желтого цвета */
+    border-radius: 15px;
+    font-family: 'Your Desired Font', sans-serif; /* Замените 'Your Desired Font' на выбранный вами шрифт */
+    color: #FFD700; /* Замените #333 на желаемый цвет текста формы */
+    font-size: 18px; 
+}
+
+.profile-form {
+    background-color:  #292929;
+    width: 700px; /* Установите ширину формы по вашему усмотрению */
+    padding: 20px; /* Добавьте отступы вокруг содержимого формы */
+    border: 7px solid #FFD700; /* Устанавливаем рамку желтого цвета */
+    border-radius: 15px;
+    font-family: 'Your Desired Font', sans-serif; /* Замените 'Your Desired Font' на выбранный вами шрифт */
+    color: #FFD700; /* Замените #333 на желаемый цвет текста формы */
+    font-size: 18px;
+}
+
+.btn-outline-warning {
+
+    margin-top: 30px; /* Устанавливает отступ сверху (вниз) для кнопки */
+    font-size: 20px;
+}
+
+.form-control {
+    width: 50%;
+    padding: 11px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    color: #333;
+    
+}
+
+/* Дополнительные стили для активного (в фокусе) состояния */
+.form-control:focus {
+    border-color:#FFD700;
+    background-color: #fff;
+    color: #000;
+    outline: none; /* Убирает обводку при фокусе */
+    font-size: 18px; 
+}
+
+/* Стили для сообщения */
+
+  
+

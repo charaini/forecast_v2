@@ -1,0 +1,57 @@
+header  {
+    background-color: #292929;
+}
+
+a {
+    
+    color: #ffd700; /* Желтый цвет текста */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Черный ободок */
+    
+}
+
+a:hover {
+    color: #ff8000; /* Красный цвет текста при наведении */
+}
+
+
+body {
+    background      : url('../../assets/img/BG.jpeg') no-repeat center center fixed;
+    
+    font-family     : 'Open Sans Condensed', sans-serif;
+    font-size       : 16px;
+    color           : #43545c;
+    line-height     : 1.8rem;
+}
+
+a.d-flex {
+    font-size: 1.7rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    
+}
+
+.button {
+    color: #212529;
+    background-color: #ffd700;
+    border-color: #ffd700;
+    border-radius: 20%; /* Сделать кнопку круглой */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #ffcc00; /* Новый цвет при наведении */
+    transform: translateY(-3px); /* Сдвиг кнопки вверх на 3 пикселя */
+}
+
+.favorite_button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 0;
+    width: 100px;
+    bottom: 5px
+}
+
+.favorite_button i {
+    font-size: 25px;
+}

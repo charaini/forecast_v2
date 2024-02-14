@@ -1,0 +1,290 @@
+[
+    {
+        "code": 1000,
+        "name": "Sunny",
+        "day_probability": [5, 10],
+        "group": "no precipitation"
+    },
+    {
+        "code": 1003,
+        "name": "Partly cloudy",
+        "day_probability": [15, 25],
+        "group": "no precipitation"
+    },
+    {
+        "code": 1006,
+        "name": "Cloudy",
+        "day_probability": [25, 35],
+        "group": "no precipitation"
+    },
+    {
+        "code": 1009,
+        "name": "Overcast",
+        "day_probability": [35, 45],
+        "group": "no precipitation"
+    },
+    {
+        "code": 1030,
+        "name": "Mist",
+        "day_probability": [10, 20],
+        "group": "no precipitation"
+    },
+    {
+        "code": 1063,
+        "name": "Patchy rain possible",
+        "day_probability": [20, 30],
+        "group": "rain"
+    },
+    {
+        "code": 1066,
+        "name": "Patchy snow possible",
+        "day_probability": [15, 25],
+        "group": "snow"
+    },
+    {
+        "code": 1069,
+        "name": "Patchy sleet possible",
+        "day_probability": [12, 22],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1072,
+        "name": "Patchy freezing drizzle possible",
+        "day_probability": [10, 20],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1087,
+        "name": "Thundery outbreaks possible",
+        "day_probability": [60, 70],
+        "group": "rain"
+    },
+    {
+        "code": 1114,
+        "name": "Blowing snow",
+        "day_probability": [25, 35],
+        "group": "snow"
+    },
+    {
+        "code": 1117,
+        "name": "Blizzard",
+        "day_probability": [70, 80],
+        "group": "snow"
+    },
+    {
+        "code": 1135,
+        "name": "Fog",
+        "day_probability": [10, 20],
+        "group": "no precipitation"
+    },
+    {
+        "code": 1147,
+        "name": "Freezing fog",
+        "day_probability": [15, 25],
+        "group": "no precipitation"
+    },
+    {
+        "code": 1150,
+        "name": "Patchy light drizzle",
+        "day_probability": [8, 15],
+        "group": "rain"
+    },
+    {
+        "code": 1153,
+        "name": "Light drizzle",
+        "day_probability": [10, 20],
+        "group": "rain"
+    },
+    {
+        "code": 1168,
+        "name": "Freezing drizzle",
+        "day_probability": [15, 25],
+        "group": "rain"
+    },
+    {
+        "code": 1171,
+        "name": "Heavy freezing drizzle",
+        "day_probability": [20, 30],
+        "group": "rain"
+    },
+    {
+        "code": 1180,
+        "name": "Patchy light rain",
+        "day_probability": [15, 25],
+        "group": "rain"
+    },
+    {
+        "code": 1183,
+        "name": "Light rain",
+        "day_probability": [20, 30],
+        "group": "rain"
+    },
+    {
+        "code": 1186,
+        "name": "Moderate rain at times",
+        "day_probability": [25, 35],
+        "group": "rain"
+    },
+    {
+        "code": 1189,
+        "name": "Moderate rain",
+        "day_probability": [30, 40],
+        "group": "rain"
+    },
+    {
+        "code": 1192,
+        "name": "Heavy rain at times",
+        "day_probability": [60, 70],
+        "group": "rain"
+    },
+    {
+        "code": 1195,
+        "name": "Heavy rain",
+        "day_probability": [80, 90],
+        "group": "rain"
+    },
+    {
+        "code": 1198,
+        "name": "Light freezing rain",
+        "day_probability": [15, 25],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1201,
+        "name": "Moderate or heavy freezing rain",
+        "day_probability": [25, 35],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1204,
+        "name": "Light sleet",
+        "day_probability": [18, 28],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1207,
+        "name": "Moderate or heavy sleet",
+        "day_probability": [28, 38],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1210,
+        "name": "Patchy light snow",
+        "day_probability": [20, 30],
+        "group": "snow"
+    },
+    {
+        "code": 1213,
+        "name": "Light snow",
+        "day_probability": [25, 35],
+        "group": "snow"
+    },
+    {
+        "code": 1216,
+        "name": "Patchy moderate snow",
+        "day_probability": [30, 40],
+        "group": "snow"
+    },
+    {
+        "code": 1219,
+        "name": "Moderate snow",
+        "day_probability": [40, 50],
+        "group": "snow"
+    },
+    {
+        "code": 1222,
+        "name": "Patchy heavy snow",
+        "day_probability": [50, 60],
+        "group": "snow"
+    },
+    {
+        "code": 1225,
+        "name": "Heavy snow",
+        "day_probability": [70, 80],
+        "group": "snow"
+    },
+    {
+        "code": 1237,
+        "name": "Ice pellets",
+        "day_probability": [35, 45],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1240,
+        "name": "Light rain shower",
+        "day_probability": [30, 40],
+        "group": "rain"
+    },
+    {
+        "code": 1243,
+        "name": "Moderate or heavy rain shower",
+        "day_probability": [50, 60],
+        "group": "rain"
+    },
+    {
+        "code": 1246,
+        "name": "Torrential rain shower",
+        "day_probability": [80, 90],
+        "group": "rain"
+    },
+    {
+        "code": 1249,
+        "name": "Light sleet showers",
+        "day_probability": [25, 35],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1252,
+        "name": "Moderate or heavy sleet showers",
+        "day_probability": [35, 45],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1255,
+        "name": "Light snow showers",
+        "day_probability": [30, 40],
+        "group": "snow"
+    },
+    {
+        "code": 1258,
+        "name": "Moderate or heavy snow showers",
+        "day_probability": [40, 50],
+        "group": "snow"
+    },
+    {
+        "code": 1261,
+        "name": "Light showers of ice pellets",
+        "day_probability": [35, 45],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1264,
+        "name": "Moderate or heavy showers of ice pellets",
+        "day_probability": [45, 55],
+        "group": "rain or snow"
+    },
+    {
+        "code": 1273,
+        "name": "Patchy light rain with thunder",
+        "day_probability": [60, 70],
+        "group": "rain"
+    },
+    {
+        "code": 1276,
+        "name": "Moderate or heavy rain with thunder",
+        "day_probability": [80, 90],
+        "group": "rain"
+    },
+    {
+        "code": 1279,
+        "name": "Patchy light snow with thunder",
+        "day_probability": [50, 60],
+        "group": "snow"
+    },
+    {
+        "code": 1282,
+        "name": "Moderate or heavy snow with thunder",
+        "day_probability": [70, 80],
+        "group": "snow"
+    }
+]

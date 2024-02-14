@@ -1,0 +1,30 @@
+[
+{
+  "model": "weather.precipitationtype",
+  "pk": 1,
+  "fields": {
+    "name": "нет"
+  }
+},
+{
+  "model": "weather.precipitationtype",
+  "pk": 2,
+  "fields": {
+    "name": "дождь или снег"
+  }
+},
+{
+  "model": "weather.precipitationtype",
+  "pk": 3,
+  "fields": {
+    "name": "дождь"
+  }
+},
+{
+  "model": "weather.precipitationtype",
+  "pk": 4,
+  "fields": {
+    "name": "снег"
+  }
+}
+]
